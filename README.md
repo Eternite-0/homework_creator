@@ -11,7 +11,7 @@
         bash
         git clone https://github.com/Eternite-0/homework_creator
        
-        ```
+        
     -   如果你没有安装 Git，可以直接下载 ZIP 压缩包并解压。
 2. 安装字体
    打开font文件，点开每个字体点击安装按钮！！！！
