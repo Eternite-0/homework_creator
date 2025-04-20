@@ -8,10 +8,9 @@
 
 1.  获取代码：
     -   如果你安装了 Git，在合适的目录下打开命令行，执行：
-        bash
-        git clone https://github.com/Eternite-0/homework_creator
-       
-        
+        ```
+        git clone https://github.com/Yuxuan10086/homework_creator.git
+        ```
     -   如果你没有安装 Git，可以直接下载 ZIP 压缩包并解压。
 2. 安装字体
    打开font文件，点开每个字体点击安装按钮！！！！
@@ -37,5 +36,3 @@
     -   回到命令行界面，输入 `Y` 并按回车键。
 6.  查看结果：
     -   程序将继续执行图片生成过程。完成后，生成的作业图片会保存在 `res` 文件夹中。
-
-
