@@ -1,0 +1,21 @@
+(1) ∀x∃y(F(x)∧G(y,z))∧∃z(H(z)∧L(x,y,z))
+⇔∀x∃y∃z(F(x)∧G(y,z)∧H(z)∧L(x,y,z))
+(2) ∃x(F(x,y,z)∧∃y(G(y)→H(x,y,z)))∨L(x,y,z,s)
+⇔∃x(F(x,y,z)∧∃y(¬G(y)∨H(x,y,z)))∨L(x,y,z,s)
+⇔∃x∃y(F(x,y,z)∧(¬G(y)∨H(x,y,z)))∨L(x,y,z,s)
+设谓词公式 F (x) 中都是自由出现，G 中无 x 的自由出现，证明：
+(1) ∃x (F (x)→G)⇔∀xF (x)→G
+∃x (F (x)→G)
+⇔∃x (¬F (x)∨G)
+⇔¬∀xF (x)∨G
+⇔∀xF (x)→G
+(2) ∃x (G→F (x))⇔G→∃xF (x)
+∃x (G→F (x))
+⇔¬G∨∃xF (x)
+⇔G→∃xF (x)
+设个体域 S 为有限集，S = {a1,a2,a3}，消去下列谓词公式中的量词。
+(3) ∀x∃yF (x,y)
+⇔(F (a1,a1)∧F (a2,a1)∧F (a3,a1))∨(F (a1,a2)∧F (a2,a2)∧F (a3,a2))∨(F (a1,a3)∧F (a2,a3)∧F (a3,a3))
+(4) ∀x (F (x)∧G (x))→∃y (F (y)∨G (y))
+⇔∃x∃y (¬(F (x)∧G (x))∨F (y)∨G (y))
+⇔(¬F (a1)∨¬G (a1)∨F (a1)∨G (a1))∨(¬F (a1)∨¬G (a1)∨F (a2)∨G (a2))∨(¬F (a1)∨¬G (a1)∨F (a3)∨G (a3))∨(¬F (a2)∨¬G (a2)∨F (a1)∨G (a1))∨(¬F (a2)∨¬G (a2)∨F (a2)∨G (a2))∨(¬F (a2)∨¬G (a2)∨F (a3)∨G (a3))∨(¬F (a3)∨¬G (a3)∨F (a1)∨G (a1))∨(¬F (a3)∨¬G (a3)∨F (a2)∨G (a2))∨(¬F (a3)∨¬G (a3)∨F (a3)∨G (a3))⇔1
