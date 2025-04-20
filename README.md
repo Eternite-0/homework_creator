@@ -8,8 +8,8 @@
 
 1.  获取代码：
     -   如果你安装了 Git，在合适的目录下打开命令行，执行：
-        ```bash
-        git clone https://github.com/Yuxuan10086/homework_creator.git
+        bash
+        git clone https://github.com/Eternite-0/homework_creator
        
         ```
     -   如果你没有安装 Git，可以直接下载 ZIP 压缩包并解压。
